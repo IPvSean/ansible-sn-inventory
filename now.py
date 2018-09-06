@@ -185,7 +185,7 @@ class NowInventory(object):
     def generate(self):
 
         # table = 'cmdb_ci_server'
-        table = 'cmdb_ci_linux_server'
+        table = 'cmdb_ci_computer'
         base_fields = [
             u'host_name', u'ip_address'
         ]
