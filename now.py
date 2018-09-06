@@ -187,7 +187,7 @@ class NowInventory(object):
         # table = 'cmdb_ci_server'
         table = 'cmdb_ci_computer'
         base_fields = [
-            u'host_name', u'ip_address'
+            u'name'
         ]
         base_groups = [u'sys_class_name']
         options = "?sysparm_exclude_reference_link=true&sysparm_display_value=true"
